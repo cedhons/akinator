@@ -1,0 +1,28 @@
+{
+	"questions" : [
+	  "Est-il jaune ?",
+	  "Il a un nez ?",
+	  "A-t-il une cravatte ?",
+	  "A-t-il un pantalon ?",
+	  "Est-il petit ?",
+	  "Est-il une éponge ?",
+	  "Est-il cuisinier ?",
+	  "Est-il gris bleu ?",
+	  "A-t-il un gros nez ?",
+	  "Joue un instrument ?",
+	  "A-t-il des tentacules ?"
+	],
+	
+	"targets" : [
+	  {
+	    "name" : "Bob",
+	    "image" : null,
+	    "questions" : 0
+	  },
+	  {
+	    "name" : "Carlo",
+	    "image" : "Carlo.png",
+	    "questions" : [7,1,8,9,10]
+	  }
+	]
+}

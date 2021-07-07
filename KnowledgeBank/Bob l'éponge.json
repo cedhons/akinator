@@ -1,0 +1,174 @@
+{ 
+   "questions":[ 
+      "Est-il petit ?",
+      "Est-il un animal de compagnie ?",
+      "Est-il un escargot ?",
+      "Est-il rose ?",
+      "Est-elle la fille de Krabs ?",
+      "Est-il une baleine ?",
+      "Est-il gris bleu ?",
+      "Est-elle une fille ?",
+      "Vit-il sous une pierre ?",
+      "A-t-il un pantalon ?",
+      "Est-il une étoile de mer ?",
+      "Est-elle prof d'auto-école ?",
+      "Grossit-elle souvent ?",
+      "Il a un nez ?",
+      "Est-il jaune ?",
+      "A-t-il une cravatte ?",
+      "Est-il cuisinier ?",
+      "Est-il une éponge ?",
+      "Est-il vert ?",
+      "Est-il l'ennemi de Krabs ?",
+      "Est-il un voleur ?",
+      "Est-il rouge ?",
+      "A-t-il des pinces ?",
+      "Est-il charismatique ?",
+      "Est-il musclé ?",
+      "A-t-il des tentacules ?",
+      "A-t-il un gros nez ?",
+      "Joue un instrument ?",
+      "Porte-t-il un scafandre ?",
+      "Est-il brun ?",
+      "A-t-il des poils ?",
+      "Est-il un écureuil ?",
+      "Est-elle la femme de Plankton ?",
+      "Est-il un robot ?",
+      "A-t-il un monosourcil ?",
+      "Est-il chef ?",
+      "Est-il radin ?"
+   ],
+   "targets":[ 
+      { 
+         "name":"Gary",
+         "image":"gary.png",
+         "questions":[ 
+            0,
+            1,
+            2,
+            3
+         ]
+      },
+      { 
+         "name":"Pearl",
+         "image":"pearl.png",
+         "questions":[ 
+            4,
+            5,
+            6,
+            7
+         ]
+      },
+      { 
+         "name":"Patrick",
+         "image":"patrick.png",
+         "questions":[ 
+            8,
+            9,
+            10,
+            3
+         ]
+      },
+      { 
+         "name":"Puff",
+         "image":"puff.png",
+         "questions":[ 
+            11,
+            12,
+            7
+         ]
+      },
+      { 
+         "name":"Bob",
+         "image":"bob.png",
+         "questions":[ 
+            13,
+            9,
+            0,
+            14,
+            15,
+            16,
+            17
+         ]
+      },
+      { 
+         "name":"Plankton",
+         "image":"plankton.png",
+         "questions":[ 
+            0,
+            18,
+            19,
+            20
+         ]
+      },
+      { 
+         "name":"Larry",
+         "image":"larry.png",
+         "questions":[ 
+            13,
+            9,
+            21,
+            22,
+            23,
+            24
+         ]
+      },
+      { 
+         "name":"Carlo",
+         "image":"carlo.png",
+         "questions":[ 
+            13,
+            25,
+            26,
+            6,
+            27
+         ]
+      },
+      { 
+         "name":"Sandy",
+         "image":"sandy.png",
+         "questions":[ 
+            13,
+            28,
+            9,
+            29,
+            30,
+            7,
+            31
+         ]
+      },
+      { 
+         "name":"Karen",
+         "image":"karen.png",
+         "questions":[ 
+            32,
+            33,
+            7
+         ]
+      },
+      { 
+         "name":"Squilliam",
+         "image":"squilliam.png",
+         "questions":[ 
+            13,
+            25,
+            34,
+            26,
+            6,
+            27
+         ]
+      },
+      { 
+         "name":"Krabs",
+         "image":"krabs.png",
+         "questions":[ 
+            13,
+            9,
+            35,
+            21,
+            22,
+            36
+         ]
+      }
+   ]
+}

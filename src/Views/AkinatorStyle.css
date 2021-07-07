@@ -1,0 +1,41 @@
+.root {
+  -fx-background-image:url('MainGenie.png');
+  -fx-background-size: cover;
+  -fx-font-size: 15;
+  -fx-font-weight: bold;
+}
+Button, ComboBox {
+  -fx-background-color: linear-gradient(to bottom, #ffe24f, #ffa200);
+  -fx-background-radius: 50;
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+Label {
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+Button:hover, ComboBox:hover {
+  -fx-background-color: linear-gradient(to bottom, #ffec8c, #ffbf52);
+}
+MenuBar {
+  -fx-background-color: linear-gradient(to bottom, #ffe24f, #ffa200);
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.bulle {
+  -fx-background-image:url('bulle.png');
+  -fx-background-size: contain;
+  -fx-background-repeat: no-repeat;
+}
+TextField {
+  -fx-background-radius: 4;
+}
+.imageChooser {
+  -fx-background-radius: 4;
+  -fx-background-color: linear-gradient(to bottom, #94ddff, #36bfff);
+}
+.imageChooser:hover {
+  -fx-background-color: linear-gradient(to bottom, #bdeaff, #94ddff);
+}
+.frame {
+  -fx-background-radius: 15;
+  -fx-background-color: linear-gradient(to bottom, #63a9c9, #3e90b5);
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}

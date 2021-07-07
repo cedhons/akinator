@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="500.0" prefWidth="740.0" stylesheets="@AkinatorStyle.css" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <Label fx:id="question" alignment="CENTER" minHeight="140.0" prefWidth="360.0" styleClass="bulle" />
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#yesPressed" text="Oui" />
+                  <Button layoutX="76.0" layoutY="44.0" mnemonicParsing="false" onAction="#noPressed" text="Non" />
+                  <Button layoutX="110.0" layoutY="44.0" mnemonicParsing="false" onAction="#doNotKnowPressed" text="Je ne sais pas" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <fx:include fx:id="menuBar" source="inc/MenuBar.fxml" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>
